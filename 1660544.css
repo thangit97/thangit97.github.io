@@ -1,0 +1,218 @@
+/*GLOBAL*/
+body {
+	
+	color:#419EED;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p {
+	margin: 5px 0;
+	line-height: 25px;
+}
+
+a {
+	text-decoration: none;
+	color: inherit;
+	list-style: none;
+}
+
+a:hover {
+	color:#847E7E;
+}
+.clear {
+	clear: both;
+}
+hr {
+	width: 77%;
+}
+
+/*HEADER*/
+#header {
+	background: #EBE8DE;
+	border-top: 5px solid #e56038;
+	position: relative;
+	width: auto;
+	margin: 0 auto 5px auto;
+	display: block;
+	
+}
+
+#header img {
+	margin: 35px 0 20px 150px;
+
+}
+#header h1 {
+	position: absolute;
+	height: 100px;
+	top: 131px;
+	left: 213px;
+	font-size: 55px;
+}
+
+/*MAIN*/
+#ava {
+	background-color:linen;
+	max-width: 1048px;
+	width: auto;
+	height: 250px;
+	margin: 0 auto;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	font-size: 18px;
+	text-align: center;
+	border-radius: 10px;
+
+}
+
+#ava img {
+	position: relative;
+	top: 20px;
+	left: 300px;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+#ava h2 {
+	line-height: 25px;
+	font-size: 20px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	position: absolute;
+	left: 596px;
+	top:233px;
+	color: #333;
+}
+
+#ava p {
+	position: absolute;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	top:271px;
+	left: 596px;
+	color: #333;
+
+	
+}
+#ava .mssv{
+	position: absolute;
+	font-size: 18px;
+	line-height: 25px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	top: 298px;
+	left: 596px;
+	color: #333;
+
+	
+}
+
+#ava .p2 {
+	position: absolute;
+	font-size: 15px;
+	line-height: 25px;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	text-align: center;
+	top:369px;
+	left: 595px;
+	color:#419EED;
+	
+}
+
+#main {
+	max-width: 1048px;
+	width: auto;
+	margin: 0 auto;
+	background: linen;
+	position: relative;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+	color:#333;
+	font-size: 18px;
+
+	
+	
+}
+
+#main h2 {
+	margin: 0 auto 50px auto;
+	text-align: center;
+	line-height: 25px;
+	padding-top: 35px;
+	color: #3690DD;
+	font-size: 30px;
+}
+#main .two_columns .gmail, .facebook {
+	margin: 25px auto 25px auto;
+}
+#main .two_columns .gmail img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 20px;
+
+}
+
+#main .two_columns .gmail a {
+	margin-top: 11px;
+	width: auto;
+	position: absolute;
+	left: 50%; 
+	margin-left: -437px; 
+}
+
+#main .two_columns .facebook img {
+	width: 50px;
+	height: 50px;
+	float: left;
+	margin-left: 569px;
+
+}
+
+#main .two_columns .facebook a {
+	margin-top: 15px;
+	width: auto;
+	position: absolute;
+	right: 50%;
+	margin-right: -497px;
+
+}
+
+caption {
+	margin-bottom: 25px;
+	color: #3690DD;
+	font-size: 20px;
+}
+
+table {
+	margin: 75px auto;
+	line-height: 25px;
+	padding: 10px;
+
+}
+
+th, td {
+	border: 1px solid #E57B2D;
+	padding: 10px;
+}
+
+#listfriend ul, li, a {
+	text-decoration: none;
+	list-style: none;
+    display: list-item;
+	font-size: 1em;
+	color:#16708a;
+	font-weight: bold;
+	line-height: 25px;
+}
+
+#listfriend h2 {
+	font-size: 1.2em;
+	margin-bottom: 5px;
+	margin-right: 50px;
+	color: #FFF000;
+	background-color: #16708a;
+	display:block;
+	padding: 5px 15px;
+	text-align: left;
+
+	
+}
