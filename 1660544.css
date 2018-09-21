@@ -31,13 +31,14 @@ hr {
 	border-top: 5px solid #e56038;
 	position: relative;
 	width: auto;
-	margin: 0 auto 5px auto;
+	max-width: 1048px;
+	margin: 0 auto 1px auto;
 	display: block;
 	
 }
 
 #header img {
-	margin: 35px 0 20px 150px;
+	margin: 20px 0 20px 110px;
 
 }
 #header h1 {
