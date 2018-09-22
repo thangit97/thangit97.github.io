@@ -187,11 +187,12 @@ table {
 	margin: 75px auto;
 	line-height: 25px;
 	padding: 10px;
+	border-collapse: collapse;
 
 }
 
 th, td {
-	border: 1px solid #E57B2D;
+	border: 2px solid #E57B2D;
 	padding: 10px;
 }
 
