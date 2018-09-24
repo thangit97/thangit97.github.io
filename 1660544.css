@@ -130,8 +130,6 @@ hr {
 	color:#333;
 	font-size: 18px;
 
-	
-	
 }
 
 #main h2 {
@@ -144,9 +142,11 @@ hr {
 	background-color: #16708a;
 	color:#FFF000;
 }
+
 #main .two_columns .gmail, .facebook {
 	margin: 25px auto 25px auto;
 }
+
 #main .two_columns .gmail img {
 	width: 50px;
 	height: 50px;
