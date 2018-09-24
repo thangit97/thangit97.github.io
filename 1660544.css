@@ -44,8 +44,8 @@ hr {
 #header h1 {
 	position: absolute;
 	height: 100px;
-	top: 131px;
-	left: 213px;
+	top: 110px;
+	left: 54px;
 	font-size: 55px;
 }
 
@@ -59,17 +59,18 @@ hr {
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 	font-size: 18px;
 	text-align: center;
-	border-radius: 10px;
+	border-radius: 10px 10px 0 0;
 
 }
 
 #ava img {
 	position: relative;
-	top: 20px;
+	top: 50px;
 	left: 300px;
 	width: 200px;
-	height: 200px;
+	height: 159px;
 	border-radius: 50%;
+	border: 3px solid #fff;
 }
 
 #ava h2 {
@@ -134,12 +135,14 @@ hr {
 }
 
 #main h2 {
-	margin: 0 auto 50px auto;
+	margin: 0 auto 40px auto;
 	text-align: center;
 	line-height: 25px;
-	padding-top: 35px;
+	padding: 15px;
 	color: #3690DD;
-	font-size: 30px;
+	font-size: 24px;
+	background-color: #16708a;
+	color:#FFF000;
 }
 #main .two_columns .gmail, .facebook {
 	margin: 25px auto 25px auto;
@@ -148,7 +151,7 @@ hr {
 	width: 50px;
 	height: 50px;
 	float: left;
-	margin-left: 20px;
+	margin-left: 29px;
 
 }
 
@@ -164,7 +167,7 @@ hr {
 	width: 50px;
 	height: 50px;
 	float: left;
-	margin-left: 569px;
+	margin-left: 562px;
 
 }
 
@@ -181,6 +184,8 @@ caption {
 	margin-bottom: 25px;
 	color: #3690DD;
 	font-size: 20px;
+	font-weight: bold;
+	
 }
 
 table {
@@ -210,9 +215,10 @@ th, td {
 	font-size: 1.2em;
 	margin-bottom: 5px;
 	margin-right: 50px;
+	margin-left: 35px;
 	color: #FFF000;
 	background-color: #16708a;
-	display:block;
+	display:inline-block;
 	padding: 5px 15px;
 	text-align: left;
 
