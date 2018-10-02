@@ -1,7 +1,6 @@
 /*GLOBAL*/
 body {
-	margin: 0;
-	padding: 0;
+	
 	color:#419EED;
 	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 }
@@ -226,4 +225,9 @@ th, td {
 	text-align: left;
 
 	
+}
+
+@media only screen and (max-width : 480px) 
+{
+
 }
