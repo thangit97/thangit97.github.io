@@ -142,6 +142,11 @@ hr {
 	
 }
 
+.two_columns{
+	width: auto;
+	height: auto;
+	
+ }
 #main .two_columns .gmail, .facebook {
 	margin: 25px auto 25px auto;
 }
@@ -203,7 +208,7 @@ th, td {
 #listfriend ul, li, a {
 	text-decoration: none;
 	list-style: none;
-    display: list-item;
+	display: list-item;
 	font-size: 1em;
 	color:#16708a;
 	font-weight: bold;
@@ -229,5 +234,20 @@ th, td {
 
 @media only screen and (max-width : 480px) 
 {
-
+	body{
+		width: auto;
+		margin: 0;
+		padding: 0;
+		position: relative;
+	}
+	#header {
+		width: auto;
+	}
+	#ava {
+		width: auto;
+		
+	}
+	* {
+		box-sizing: border-box;
+	}
 }
