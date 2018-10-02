@@ -129,7 +129,7 @@ hr {
 	margin: 0 auto 40px auto;
 	position: relative;
 	top: 20px;
-	left: 30%;
+	left: 0%;
 	text-align: center;
 	line-height: 25px;
 	padding: 15px;
@@ -137,7 +137,7 @@ hr {
 	font-size: 24px;
 	background-color: #16708a;
 	color:#FFF000;
-	display: inline-block;
+	
 
 	
 }
@@ -146,7 +146,7 @@ hr {
 	width: auto;
 	height: auto;
 	
- }
+}
 #main .two_columns .gmail, .facebook {
 	margin: 25px auto 25px auto;
 }
@@ -208,46 +208,29 @@ th, td {
 #listfriend ul, li, a {
 	text-decoration: none;
 	list-style: none;
-	display: list-item;
 	font-size: 1em;
 	color:#16708a;
 	font-weight: bold;
 	line-height: 25px;
-	text-align: center;
+	text-align: justify;
+	margin-left: 110px;
+	
+
 	
 }
 
 #listfriend h2 {
+
 	font-size: 1.2em;
 	margin-bottom: 5px;
-	margin-right: 50px;
-	margin-left: 100px;
+	margin-right: 50px;	
 	line-height: 25px;
 	color: #FFF000;
 	background-color: #16708a;
-	display:inline-block;
+	display:block;
 	padding: 5px 15px;
-	text-align: left;
+	text-align: center;
 
 	
 }
 
-@media only screen and (max-width : 480px) 
-{
-	body{
-		width: auto;
-		margin: 0;
-		padding: 0;
-		position: relative;
-	}
-	#header {
-		width: auto;
-	}
-	#ava {
-		width: auto;
-		
-	}
-	* {
-		box-sizing: border-box;
-	}
-}
