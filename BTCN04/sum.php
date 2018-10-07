@@ -16,7 +16,7 @@
 	$number1 = $_POST['number1'];
 	$number2 = $_POST['number2'];
 	$sum = TinhTong($number1, $number2 );
-	echo 'Kết quả tổng hai số' .@number1. 'và' .@number2. 'là' .$sum
+	echo 'Kết quả tổng hai số ' .$number1. ' và ' .$number2. ' là ' .$sum
 	?>
 </body>
 </html>
